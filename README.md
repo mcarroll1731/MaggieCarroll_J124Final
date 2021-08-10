@@ -34,5 +34,8 @@ Analyzing data about salaries based on degrees, college types, and college regio
 1. In "Degrees that pay back" column, make a new column called "PERCDIF_HIGHLOW"
 2. Make an equation that finds what percentage of the highest salaries that the lowest-paid graduates make. That is "Mid-Career 10th Percentile Salary" divided by "Mid-Career 90th Percentile Salary" and apply to the column.
 3. Sort this new column from lowest to highest to find the greatest disparity within individual majors. 
+4. Alternatively, you could find the percentage __more__ that the highest paid group makes over the other and sort high to low and that should give the same degree as the answer.
 
 !['Q2P2', 'Question2_Part2'](Screenshot_Q2_P2.jpg)
+
+
