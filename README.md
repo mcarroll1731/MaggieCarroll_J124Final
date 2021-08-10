@@ -26,6 +26,7 @@ Analyzing data about salaries based on degrees, college types, and college regio
 1. In "Degrees that pay back" column, make a new column called "Difference_HIGHLOW"
 2. Make an equation that subtracts the "Mid-Career 10th Percentile Salary" column from the "Mid-Career 90th Percentile Salary" column
 3. Sort this new column from highest to lowest to find the greatest disparity
+!['Q2P1', 'Question2_Part1'](Screenshot_Q2_P1.jpg)
 
 ## Based on percentage difference in salary: The lowest-paid Physician Assistants make 46.45% what the highest-paid Physician Assistants make, though the difference in salary is only $57,600.00
 ### How I solved this: 
