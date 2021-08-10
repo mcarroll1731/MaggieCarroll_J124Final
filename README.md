@@ -59,4 +59,6 @@ Analyzing data about salaries based on degrees, college types, and college regio
 7. For value, use "Mid-Career Median Salary" summarized by "Average"
 8. Analyze the table to find common trends. For instance, look at the "Grand Total" based on region and school type to see which make the most and/or least money. 
 
+## Question 4: With the exception of Randolph-Macon College, all of the schools that are labelled as "Party" schools are also listed under "State" schools. How do state and party schools compare in terms of salary?
+
 
