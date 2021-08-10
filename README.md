@@ -41,6 +41,22 @@ Analyzing data about salaries based on degrees, college types, and college regio
 ## Question 3: How do region and school type impact salary? (look at Mid-Career Median Salary)
 #### This question does not have a straightforward answer, but here are the trends that I found:
 
+!['Q3', 'Question3'](Screenshot_Q3.jpg)
+
+#### California and the Northeast have a higher median midcareer salary than other regions based on "Grand Total"
+#### For type: state schools tend to have the lowest salary and Ivy League have the highest
+#### For region: Midwestern is paid the least and Northeast is paid the most
+#### The highest paying type and region is California Engineering schools. 
+##### This data is definitely biased and so flawed - for instance, Stanford and USC, which both have higher than average median salaries, were not included in the "School Type" data, so could not be included in this comparison. Generally there were biases with the "School Type" with some meaningless distinctions, which I will discuss later.
+
 ### How I solved this: 
+1. Create a new column called "SCHOOLREGION" in the table "salaries-by-college-type"
+2. Use "VLOOKUP" to combine the tables "Salaries by Region" and "salaries-by-college-type" (i.e. "=VLOOKUP(A2, 'Salaries by Region'!$A$2:I338, 3, false)")
+3. Apply to the entire column "SCHOOLREGION"
+4. Go to "DATA" and create a new pivot table
+5. For column, use "School Type"
+6. For row, use "SCHOOLREGION"
+7. For value, use "Mid-Career Median Salary" summarized by "Average"
+8. Analyze the table to find common trends. For instance, look at the "Grand Total" based on region and school type to see which make the most and/or least money. 
 
 
