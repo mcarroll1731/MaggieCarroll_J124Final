@@ -38,4 +38,9 @@ Analyzing data about salaries based on degrees, college types, and college regio
 
 !['Q2P2', 'Question2_Part2'](Screenshot_Q2_P2.jpg)
 
+## Question 3: How do region and school type impact salary? (look at Mid-Career Median Salary)
+#### This question does not have a straightforward answer, but here are the trends that I found:
+
+### How I solved this: 
+
 
