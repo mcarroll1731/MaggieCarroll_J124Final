@@ -80,7 +80,7 @@ Analyzing data about salaries based on degrees, college types, and college regio
 
 # Story Summary and Sourcing 
 
-##  I would perhaps want to look at the impact of region on salary...
+##  My story pitch...
 
 # Data Visualization
 
