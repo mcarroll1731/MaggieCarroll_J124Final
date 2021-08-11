@@ -75,6 +75,20 @@ Analyzing data about salaries based on degrees, college types, and college regio
 6. Once they are highlighted, filter "School Name" by the color that the duplicate schools are highlighted: this should give back schools that are typified as "Party"...
 
 ## Question 5: Which region see the most salary growth?
+### The Northeast
+|  **Region**  |  **Average Percent Increase from Start of Career to Mid-Career** |
+|  ---  |  ---  |
+| California | 82.8% |
+| Midwest | 76.2% |
+| Northeast | 88.4% |
+| South | 77.9% |
+| West | 76.0% |
+
+### How I solved this:
+1. In the "Salaries by Region" table, make a new column called "PERC_CHANGE_FROM_START_TO_MID"
+2. In the column, type the formula "=(D2-C2)/C2", where D is "Median Mid-Career Salary" and C is "Median Starting Salary"; apply to the column
+3. Make a pivot table with "Region" as row, and the average of "PERC_CHANGE_FROM_START_TO_MID" as value
+4. Analyze the table (recreated above)
 
 #### I could have more simply made a pivot table that showed the average median salary of each school type, but then the "State" school category would also include "Party" schools in their calculation. I wanted to sort these so that party schools and state schools *not* defined as "Party" could be counted separately.
 
