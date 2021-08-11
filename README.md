@@ -90,6 +90,8 @@ Analyzing data about salaries based on degrees, college types, and college regio
 3. Make a pivot table with "Region" as row, and the average of "PERC_CHANGE_FROM_START_TO_MID" as value
 4. Analyze the table (recreated above)
 
+!['Q5', 'Question5'](Q5_PercRegion.png)
+
 #### I could have more simply made a pivot table that showed the average median salary of each school type, but then the "State" school category would also include "Party" schools in their calculation. I wanted to sort these so that party schools and state schools *not* defined as "Party" could be counted separately.
 
 # Story Summary and Sourcing 
