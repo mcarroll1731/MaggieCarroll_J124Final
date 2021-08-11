@@ -1,6 +1,8 @@
 # MaggieCarroll_J124Final
 Analyzing data about salaries based on degrees, college types, and college regions. 
 
+# Data Analysis Process
+
 ## Question 1: Which are the top 5 paying majors? What are the 5 lowest paying majors? (Using average of starting and mid-career salary)
 |  **Highest Paying**  |  **Average Salary**  |  **Lowest Paying**  |  **Average Salary**  |
 | --- | --- | --- | --- |
@@ -70,7 +72,15 @@ Analyzing data about salaries based on degrees, college types, and college regio
 3. Click "Format" in the toolbar and then "Conditional Format"
 4. Make sure that the applied range is the entire column
 5. Under "Format cells if...", select "Custom formula is" and type "=countif(A:A, A1)>1". If "School Name" is a column other than "A", use that column in the formula. This formula will highlight any schools in the column that are listed more than once. Since only party schools are listed more than once, only they will be highlighted (alongside their duplicates). You can check this later by sorting by school type to see that only party schools and schools with the same name as party schools (all state, except Randolph-Macon, as mentioned earlier)
-6. Once they are highlighted, filter "School Name" by the color that the duplicate schools are highlighted: this should give back schools that are typified as "Party"
+6. Once they are highlighted, filter "School Name" by the color that the duplicate schools are highlighted: this should give back schools that are typified as "Party"...
+
+## Question 5: Which region see the most salary growth?
 
 #### I could have more simply made a pivot table that showed the average median salary of each school type, but then the "State" school category would also include "Party" schools in their calculation. I wanted to sort these so that party schools and state schools *not* defined as "Party" could be counted separately.
+
+# Story Summary and Sourcing 
+
+##  I would perhaps want to look at the impact of region on salary...
+
+# Data Visualization
 
