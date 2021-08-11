@@ -2,7 +2,7 @@
 Analyzing data about salaries based on degrees, college types, and college regions. 
 
 ## Question 1: Which are the top 5 paying majors? What are the 5 lowest paying majors? (Using average of starting and mid-career salary)
-|  Highest Paying  |  Average Salary  |  Lowest Paying  |  Average Salary  |
+|  **Highest Paying**  |  **Average Salary**  |  **Lowest Paying**  |  **Average Salary**  |
 | --- | --- | --- | --- |
 | Chemical Engineering | $85,100.00 | Religion | $43,050.00 |
 | Computer Engineering | $83,200.00 | Education | $43,450.00 |
@@ -59,6 +59,18 @@ Analyzing data about salaries based on degrees, college types, and college regio
 7. For value, use "Mid-Career Median Salary" summarized by "Average"
 8. Analyze the table to find common trends. For instance, look at the "Grand Total" based on region and school type to see which make the most and/or least money. 
 
-## Question 4: With the exception of Randolph-Macon College, all of the schools that are labelled as "Party" schools are also listed under "State" schools. How do state and party schools compare in terms of salary?
+## Question 4: With the exception of Randolph-Macon College, all of the schools that are labeled as "Party" schools are also listed under "State" schools. How do state and party schools compare in terms of salary?
+|  **Party School Mid-Career Median Salary**  |  **State School Mid-Career Median Salary** |
+|  ---  |  ---  |
+| $84,311.28 | $79,220.98 |
 
+### How I solved this:
+1. In a table that includes the school names and school types, filter "School Type" to just "Party" and "State"
+2. Because all of the "Party" schools are also listed under other school types, sort for schools that have a duplicate. Highlight the "School Name" column
+3. Click "Format" in the toolbar and then "Conditional Format"
+4. Make sure that the applied range is the entire column
+5. Under "Format cells if...", select "Custom formula is" and type "=countif(A:A, A1)>1". If "School Name" is a column other than "A", use that column in the formula. This formula will highlight any schools in the column that are listed more than once. Since only party schools are listed more than once, only they will be highlighted (alongside their duplicates). You can check this later by sorting by school type to see that only party schools and schools with the same name as party schools (all state, except Randolph-Macon, as mentioned earlier)
+6. Once they are highlighted, filter "School Name" by the color that the duplicate schools are highlighted: this should give back schools that are typified as "Party"
+
+#### I could have more simply made a pivot table that showed the average median salary of each school type, but then the "State" school category would also include "Party" schools in their calculation. I wanted to sort these so that party schools and state schools *not* defined as "Party" could be counted separately.
 
