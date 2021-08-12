@@ -2,6 +2,8 @@
 Analyzing data about salaries based on degrees, college types, and college regions. 
 #### [Google Sheets Data](https://docs.google.com/spreadsheets/d/19z5LWqeirYwG5N5L6V5A_C1z-k1zEb9i2_IZtkjEuzo/edit?usp=sharing)
 
+##### A Note: This data is provided by the Wall Street Journal. After looking at this data, there were many elements of the data that made me question the biases of the data curators. For instance, the derogatory term "party school" was almost exclusively applied to state schools with no explanation as to why they got this treatment. Presumably, it was reputation and classism. The school "types" were generally strangely chosen, with schools like USC and Stanford being included in information about school regions, but not school type. This was because the categories were "Ivy League", "Party", "State", "Liberal Arts", and "Engineering". These were strange choices that were never justified in the data or in the article, and show some level of bias. More useful distinctions might have included "Private", "Public", "For-Profit", and then specialty schools like "Engineering". 
+
 # Data Analysis Process
 
 ## Question 1: Which are the top 5 paying majors? What are the 5 lowest paying majors? (Using average of starting and mid-career salary)
@@ -122,3 +124,4 @@ Analyzing data about salaries based on degrees, college types, and college regio
   * This report examines the impact, if any, of membership in Greek life on life after college. It includes a lot of data that could be useful in examining if Greek membership is the factor that means higher salaries amongst graduates of party schools, most especially data that says Greek members, both male and female, make more than their non-Greek counterparts. I'm curious if pre-existing family wealth or connections skews this, which would make this finding less significant, but it is an interesting lead.
 * [Greek Life Statistics](https://thefraternityadvisor.com/greek-life-statistics/)
   * This article goes over some statistics about fraternity life, with a lot of class-related statistics being pretty blatant. For instance, as of 2011, when this was written, 85% of Fortune 500 executives were fraternity men and 40 of 47 Supreme Court Justices were fraternity men. This could be interesting to look into, and might be a lead that shows fraternity membership as a class status marker.
+    * The original source of this data actually comes from the NIC and the Center for the Study of the College Fraternity, though the hyperlinks they provided are no longer valid. This mkes me question if I should use this data since I don't know the validity of it.
