@@ -1,4 +1,5 @@
-# MaggieCarroll_J124Final
+# J124 Final
+## By Maggie Carroll
 Analyzing data about salaries based on degrees, college types, and college regions. 
 #### [Google Sheets Data](https://docs.google.com/spreadsheets/d/19z5LWqeirYwG5N5L6V5A_C1z-k1zEb9i2_IZtkjEuzo/edit?usp=sharing)
 #### [Excel Data](J124FinalProjectData.xlsx)
