@@ -105,4 +105,15 @@ Analyzing data about salaries based on degrees, college types, and college regio
 
 # Data Visualization
 !['DViz1', 'SCATTER_PLOT'](GREEK_SAL.jpg)
+[Scatter Plot](https://datawrapper.dwcdn.net/HMBgw/1/)
+
+### Based on this scatterplot, we can see that there is a slight correlation between higher salary and robust Greek life, which I define as having fewer students per one Greek house at a school. However, the correlation is slight and might be circumstantial. I would also like to look into factors like average family income by school, trends of salary amongst Greek members compared to other students, and comparisons with non-party state schools. 
+
+#### Sources I could seek out:
+* Sneha Ramesh: sneha.ramesh@berkeley.edu
+  * President of the UC Berkeley Panhellenic Executive Council of 2021. Sneha would be a good person to talk to about the post-graduate connections made throuh Greek life. She is also probably more accessible being a Berkeley student, and I do happen to have met her through a mutual friend my Freshman year, which might also help if I wanted to interview her.
+* Dil Sen: dilsen@berkeley.edu
+  * President of the UC Berkeley Interfraternity council. Dil, like Sneha, could be a good person to talk to both because he has personal experience in a fraternity and in leadership, so he's likeley more knowledgeable than an average Greek member. Also, like Sneha, the proximity could make him a more feasible source.
+
+#### Additional data:
 
