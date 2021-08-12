@@ -116,4 +116,7 @@ Analyzing data about salaries based on degrees, college types, and college regio
   * President of the UC Berkeley Interfraternity council. Dil, like Sneha, could be a good person to talk to both because he has personal experience in a fraternity and in leadership, so he's likeley more knowledgeable than an average Greek member. Also, like Sneha, the proximity could make him a more feasible source.
 
 #### Additional data:
-
+* ["The impact of Greek organization membership on collegiate outcomes: Evidence from a National Survey"](https://doi.org/10.1016/j.socec.2014.02.003)
+  * This report examines the impact, if any, of membership in Greek life on life after college. It includes a lot of data that could be useful in examining if Greek membership is the factor that means higher salaries amongst graduates of party schools, most especially data that says Greek members, both male and female, make more than their non-Greek counterparts. I'm curious if pre-existing family wealth or connections skews this, which would make this finding less significant, but it is an interesting lead.
+* [Greek Life Statistics](https://thefraternityadvisor.com/greek-life-statistics/)
+  * This article goes over some statistics about fraternity life, with a lot of class-related statistics being pretty blatant. For instance, as of 2011, when this was written, 85% of Fortune 500 executives were fraternity men and 40 of 47 Supreme Court Justices were fraternity men. This could be interesting to look into, and might be a lead that shows fraternity membership as a class status marker.
