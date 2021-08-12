@@ -52,27 +52,33 @@ Analyzing data about salaries based on degrees, college types, and college regio
 ##### This data is definitely biased and so flawed - for instance, Stanford and USC, which both have higher than average median salaries, were not included in the "School Type" data, so could not be included in this comparison. Generally there were biases with the "School Type" with some meaningless distinctions, which I will discuss later.
 
 ### How I solved this: 
-1. Create a new column called "SCHOOLREGION" in the table "salaries-by-college-type"
-2. Use "VLOOKUP" to combine the tables "Salaries by Region" and "salaries-by-college-type" (i.e. "=VLOOKUP(A2, 'Salaries by Region'!$A$2:I338, 3, false)")
-3. Apply to the entire column "SCHOOLREGION"
-4. Go to "DATA" and create a new pivot table
-5. For column, use "School Type"
-6. For row, use "SCHOOLREGION"
-7. For value, use "Mid-Career Median Salary" summarized by "Average"
+1. Create a new column called "SCHOOLREGION" in the table "salaries-by-college-type".
+2. Use "VLOOKUP" to combine the tables "Salaries by Region" and "salaries-by-college-type" (i.e. "=VLOOKUP(A2, 'Salaries by Region'!$A$2:I338, 3, false)").
+3. Apply to the entire column "SCHOOLREGION".
+4. Go to "DATA" and create a new pivot table.
+5. For column, use "School Type".
+6. For row, use "SCHOOLREGION".
+7. For value, use "Mid-Career Median Salary" summarized by "Average".
 8. Analyze the table to find common trends. For instance, look at the "Grand Total" based on region and school type to see which make the most and/or least money. 
 
 ## Question 4: With the exception of Randolph-Macon College, all of the schools that are labeled as "Party" schools are also listed under "State" schools. How do state and party schools compare in terms of salary?
 |  **Party School Mid-Career Median Salary**  |  **State School Mid-Career Median Salary** |
 |  ---  |  ---  |
-| $84,311.28 | $79,220.98 |
+| $96,030 | $77,076 |
 
 ### How I solved this:
 1. In a table that includes the school names and school types, filter "School Type" to just "Party" and "State"
-2. Because all of the "Party" schools are also listed under other school types, sort for schools that have a duplicate. Highlight the "School Name" column
+2. Because all of the "Party" schools are also listed under other school types, sort for schools that have a duplicate. To do this, first highlight the entire "School Name" column
 3. Click "Format" in the toolbar and then "Conditional Format"
 4. Make sure that the applied range is the entire column
 5. Under "Format cells if...", select "Custom formula is" and type "=countif(A:A, A1)>1". If "School Name" is a column other than "A", use that column in the formula. This formula will highlight any schools in the column that are listed more than once. Since only party schools are listed more than once, only they will be highlighted (alongside their duplicates). You can check this later by sorting by school type to see that only party schools and schools with the same name as party schools (all state, except Randolph-Macon, as mentioned earlier)
-6. Once they are highlighted, filter "School Name" by the color that the duplicate schools are highlighted: this should give back schools that are typified as "Party"...
+6. Once they are highlighted, filter "School Name" by the color that the duplicate schools are highlighted: this should give back schools that are categorized as "Party".
+7. Paste this into a new table and call this "Party Schools".
+8. Now, in the original table, filter "School Name" first by color so that the color is white (the default). 
+9. Highlight "School Name", and under the "Data", select "Remove Duplicates", which will leave all of the party schools.
+10. Then, filter the column "School Type" so that only "State" is shown. Paste all of these values into a new table called "State Schools". These values are state schools that are not *also* labeled as "Party" schools.
+11. In both tables, create a row called "AVERAGE" and under "Mid-Career Median Salary", write the formula "=AVERAGE(...)", where "..." is the highlighted values of that column (i.e. E2:E21).
+12. That should give the average values of the mid-career median salaries for both state and party schools!
 
 ## Question 5: Which region see the most salary growth?
 ### The Northeast
@@ -92,11 +98,9 @@ Analyzing data about salaries based on degrees, college types, and college regio
 
 !['Q5', 'Question5'](Q5_PercRegion.png)
 
-#### I could have more simply made a pivot table that showed the average median salary of each school type, but then the "State" school category would also include "Party" schools in their calculation. I wanted to sort these so that party schools and state schools *not* defined as "Party" could be counted separately.
-
 # Story Summary and Sourcing 
 
-##  My story pitch...
+##  My story pitch involves question 4, which compares the earnings of state schools and party schools, as defined by the Wall Street Journal. When I first looked at the data, the distinction of "party school" seemed classist since nineteen of the twenty schools defined as such were also public state schools, with one liberal arts school. This suprised me since some schools that were more often attended by the rich but could also be called "party schools", like USC, Tulane, or Dartmouth, were not labeled so dismissively. Upon second look, however, I was suprised to find that state "party" schools had a higher average median income than non-party state schools (see question 4). This inspired what I would want to look at, which would be **why** these schools have better paid graduates. 
 
 # Data Visualization
 
