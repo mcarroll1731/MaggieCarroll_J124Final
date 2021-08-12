@@ -1,6 +1,7 @@
 # MaggieCarroll_J124Final
 Analyzing data about salaries based on degrees, college types, and college regions. 
 #### [Google Sheets Data](https://docs.google.com/spreadsheets/d/19z5LWqeirYwG5N5L6V5A_C1z-k1zEb9i2_IZtkjEuzo/edit?usp=sharing)
+#### [Excel Data](J124FinalProjectData.xlsx)
 
 ##### A Note: This data is provided by the Wall Street Journal. After looking at this data, there were many elements of the data that made me question the biases of the data curators. For instance, the derogatory term "party school" was almost exclusively applied to state schools with no explanation as to why they got this treatment. Presumably, it was reputation and classism. The school "types" were generally strangely chosen, with schools like USC and Stanford being included in information about school regions, but not school type. This was because the categories were "Ivy League", "Party", "State", "Liberal Arts", and "Engineering". These were strange choices that were never justified in the data or in the article, and show some level of bias. More useful distinctions might have included "Private", "Public", "For-Profit", and then specialty schools like "Engineering". 
 
