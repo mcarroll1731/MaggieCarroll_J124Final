@@ -104,5 +104,5 @@ Analyzing data about salaries based on degrees, college types, and college regio
 ###  I wondered if party schools had more robust Greek life, and if that had a correlation with higher salaries, perhaps through panhellenic networking. I looked through greekrank.com, through which I found the number of sororities and fraternities at each "party school", with the exception of Randolph-Macon College, which I omitted because it made this data less comparable to the other schools. I also went on niche.com to find the student population at each school so as to better understand the ratio of Greek organizations to the number of students. I thought that 20 Greek organizations at a school with a small student population might be more notable than a school with a similarly-sized Greek life, but a greater number of students. On the basis of this information, I divided the student population by the total number of Greek houses at a school to find the number of students per Greek house on campus. Using this information, I made the scatterplot seen below.
 
 # Data Visualization
-!['DViz1', 'SCATTER_PLOT'](GREEK_SALARY.png)
+!['DViz1', 'SCATTER_PLOT'](GREEK_SAL.jpg)
 
